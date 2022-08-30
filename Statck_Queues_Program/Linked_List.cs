@@ -25,6 +25,20 @@ namespace Statck_Queues_Program
             }
             Console.WriteLine("{0} inserted into queue ", node.data);
         }
+
+        public void Dequeue()
+        {
+            if (head == null)
+            {
+                Console.WriteLine("Queue is Empty");
+            }
+            else
+            {
+                Console.WriteLine(head.data + " removed from Queue");
+                head = head.next;
+            }
+        }
+
         public void Display()
         {
             if (head == null)

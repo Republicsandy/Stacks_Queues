@@ -13,6 +13,7 @@ namespace Statck_Queues_Program
             list.Enqueue(56);
             list.Enqueue(30);
             list.Enqueue(70);
+            list.Dequeue();
             list.Display();
         }
     }
