@@ -10,10 +10,9 @@ namespace Statck_Queues_Program
             Console.WriteLine("Hello, Welcome to Stacks and Queues!");
             //creating a list
             Linked_List list = new Linked_List();
-            list.Push(70);
-            list.Push(30);
-            list.Push(56);
-            list.IsEmpty();
+            list.Enqueue(56);
+            list.Enqueue(30);
+            list.Enqueue(70);
             list.Display();
         }
     }
